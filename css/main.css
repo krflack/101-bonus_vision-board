@@ -1,0 +1,61 @@
+body {
+  background: #E8E8E8;
+}
+#vision-board {
+  background: url('../img/background.png');
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 850px;
+  width: 1200px;
+  margin: 50px auto;
+  overflow: auto;
+  text-transform: uppercase;
+}
+.block {
+  box-sizing: border-box;
+  float: left;
+  width: 400px;
+}
+.small-block {
+  height: 210px;
+  padding: 30px;
+}
+.large-block {
+  height: 430px;
+  padding: 50px 30px;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.light-bg {
+  background: #ffffff;
+}
+.dark-bg {
+  background: #3B3B3B;
+}
+.marker {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+.title {
+  color: #ffffff;
+  font-size: 30px;
+}
+.highlight {
+  background: #FFF44F;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+strong {
+  font-size: 38px;
+  text-transform: none;
+  line-height: 38px;
+}
